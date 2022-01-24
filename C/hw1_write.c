@@ -1,4 +1,4 @@
 #include <unistd.h>
 int main() {
-	write(0, "Hello, world!\n", 15);
+	write(2, "Hello, world!\n", 15);
 }
