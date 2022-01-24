@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include <unistd.h>
 int main() {
-	printf("Hello, world!\n");
+	write(0, "Hello, world!\n", 15);
 }
